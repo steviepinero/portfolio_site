@@ -1,0 +1,122 @@
+@import url(font-awesome.min.css);
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,700");
+
+
+
+
+
+
+	ol, ul {
+		list-style: none;
+	}
+
+
+
+
+	*, *:before, *:after {
+		box-sizing: border-box;
+	}
+
+
+
+	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #000;
+		padding: 6em 4em 4em 4em;
+	}
+
+		body > * {
+			position: relative;
+			z-index: 2;
+		}
+
+
+
+
+
+
+
+
+/* BG */
+
+	body {
+		  background-image: url('http://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA17563-1920x1200.jpg');
+	}
+
+
+/* Type */
+
+	body {
+		color: rgba(255, 255, 255, 0.75);
+		font-family: "Roboto", sans-serif;
+		font-size: 16pt;
+		font-weight: 400;
+		letter-spacing: -0.01em;
+		line-height: 1.65em;
+	}
+
+
+
+	a {
+		transition: border-bottom-color 0.2s ease, color 0.2s ease;
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
+		color: #1cb495;
+		text-decoration: none;
+	}
+
+
+
+	strong, b {
+		color: #fff;
+		font-weight: 700;
+	}
+
+
+	h1{
+		color: #fff;
+		font-weight: 700;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+	}
+
+
+
+	h1 {
+		font-size: 2.5em;
+		line-height: 1.25em;
+	}
+
+
+
+
+
+
+/* Icon */
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon:before {
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+
+
+/* Header */
+
+	#header h1 {
+		font-size: 3.25em;
+		margin: 0 0 0.55em 0;
+	}
