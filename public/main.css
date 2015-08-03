@@ -43,7 +43,7 @@
 
 	body {
 		  background-image: url('http://i1031.photobucket.com/albums/y375/Stevie_Pinero/hd-wallpapers-space-galaxy5-picsay_zpsgk4cpznk.jpg');
-			background-size: 63em
+			background-size: 115% 115%;
 	}
 
 
@@ -120,4 +120,27 @@
 	#header h1 {
 		font-size: 3.25em;
 		margin: 0 0 0.55em 0;
+	}
+
+	/*	footer	*/
+
+	#footer a:link {
+		color: #33CC33;
+		text-decoration: none;
+	}
+
+	#footer a:visited {
+		color: #999999;
+		text-decoration: none;
+	}
+
+	#footer a:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	#footer a:active {
+		color: #999999;
+		text-decoration: none;
 	}
