@@ -1,146 +1,173 @@
-@import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Roboto:400,700");
 
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
 
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('          http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/space-wallpaper-1.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
+.headline {
+    padding: 120px 0;
+}
 
+.headline h1 {
+    font-size: 130px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
 
+.headline h2 {
+    font-size: 77px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
 
-	ol, ul {
-		list-style: none;
-	}
+.featurette-divider {
+    margin: 80px 0;
+}
 
+.featurette {
+    overflow: hidden;
+}
 
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
 
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
 
-	*, *:before, *:after {
-		box-sizing: border-box;
-	}
+.featurette-heading {
+    font-size: 50px;
+}
 
+footer {
+    margin: 50px 0;
+}
 
+@media(max-width:1200px) {
+    .headline h1 {
+        font-size: 140px;
+    }
 
-	body {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		background-color: #000;
-		padding: 6em 4em 4em 4em;
-	}
+    .headline h2 {
+        font-size: 63px;
+    }
 
-		body > * {
-			position: relative;
-			z-index: 2;
-		}
+    .featurette-divider {
+        margin: 50px 0;
+    }
 
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
 
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
 
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
 
+@media(max-width:991px) {
+    .headline h1 {
+        font-size: 105px;
+    }
 
+    .headline h2 {
+        font-size: 50px;
+    }
 
+    .featurette-divider {
+        margin: 40px 0;
+    }
 
+    .featurette-image {
+        max-width: 50%;
+    }
 
-/* BG */
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
 
-	body {
-		  background-image: url('http://i1031.photobucket.com/albums/y375/Stevie_Pinero/hd-wallpapers-space-galaxy5-picsay_zpsgk4cpznk.jpg');
-			background-size: 115% 115%;
-	}
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
 
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
 
-/* Type */
+@media(max-width:768px) {
+    .container {
+        margin: 0 15px;
+    }
 
-	body {
-		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", sans-serif;
-		font-size: 16pt;
-		font-weight: 400;
-		letter-spacing: -0.01em;
-		line-height: 1.65em;
-	}
+    .featurette-divider {
+        margin: 40px 0;
+    }
 
+    .featurette-heading {
+        font-size: 25px;
+    }
+}
 
+@media(max-width:668px) {
+    .headline h1 {
+        font-size: 70px;
+    }
 
-	a {
-		transition: border-bottom-color 0.2s ease, color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
-		color: #1cb495;
-		text-decoration: none;
-	}
+    .headline h2 {
+        font-size: 32px;
+    }
 
+    .featurette-divider {
+        margin: 30px 0;
+    }
+}
 
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
 
-	strong, b {
-		color: #fff;
-		font-weight: 700;
-	}
+    .headline h1 {
+        font-size: 60px;
+    }
 
+    .headline h2 {
+        font-size: 30px;
+    }
+}
 
-	h1{
-		color: #fff;
-		font-weight: 700;
-		line-height: 1em;
-		margin: 0 0 1em 0;
-	}
+@media(max-width:375px) {
+    .featurette-divider {
+        margin: 10px 0;
+    }
 
+    .featurette-image {
+        max-width: 100%;
+    }
 
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 
-	h1 {
-		font-size: 2.5em;
-		line-height: 1.25em;
-	}
-
-
-
-
-
-
-/* Icon */
-
-	.icon {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
-
-		.icon:before {
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none;
-		}
-
-		.icon > .label {
-			display: none;
-		}
-
-
-
-/* Header */
-
-	#header h1 {
-		font-size: 3.25em;
-		margin: 0 0 0.55em 0;
-	}
-
-	/*	footer	*/
-
-	#footer a:link {
-		color: #33CC33;
-		text-decoration: none;
-	}
-
-	#footer a:visited {
-		color: #999999;
-		text-decoration: none;
-	}
-
-	#footer a:hover {
-		color: #FFFFFF;
-		text-decoration: none;
-		text-transform: uppercase;
-	}
-
-	#footer a:active {
-		color: #999999;
-		text-decoration: none;
-	}
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
