@@ -1,4 +1,4 @@
-<script>
+
 $('div[id^=""]').on('click', function(event) {
 
     var target = $( $(this).attr('href') );
@@ -11,4 +11,3 @@ $('div[id^=""]').on('click', function(event) {
     }
 
 });
-</script>
