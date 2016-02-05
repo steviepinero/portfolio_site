@@ -27,20 +27,7 @@
 </head>
 
 <body>
-<script>
-$('a[href^="#"]').on('click', function(event) {
 
-    var target = $( $(this).attr('href') );
-
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
-
-});
-</script>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -173,6 +160,9 @@ $('a[href^="#"]').on('click', function(event) {
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scroll java script -->
+    <script src="js/scroll.js"
 
 </body>
 
