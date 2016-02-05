@@ -1,5 +1,5 @@
 <script>
-$('a[href^="#"]').on('click', function(event) {
+$('div[id^=""]').on('click', function(event) {
 
     var target = $( $(this).attr('href') );
 
