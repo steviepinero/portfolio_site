@@ -182,3 +182,7 @@ footer {
 #github{
   margin-right: 10em;
 }
+
+.featurette-divider{
+  padding: 40em;
+}
