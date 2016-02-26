@@ -12,6 +12,7 @@ $('a[href^="#"]').on('click', function(event) {
 
 });
 
+
 $(document).ready(function() {
   $('.row img').animate({
     opacity:.5
