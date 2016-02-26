@@ -11,3 +11,15 @@ $('a[href^="#"]').on('click', function(event) {
     }
 
 });
+
+$(document).ready(function() {
+  $('.row img').animate({
+    opacity:.5
+  });
+  $('.row img').hover(function() {
+    $(this).stop().animate({opacity:1}, 'fast');
+  }, function() {
+    $(this).stop().animate({opacity:.5}, 'slow');
+
+  });
+});
