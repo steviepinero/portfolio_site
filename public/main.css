@@ -187,3 +187,9 @@ footer {
 .featurette{
   padding-top: 4em;
 }
+
+.description {
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+}
