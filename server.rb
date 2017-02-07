@@ -13,5 +13,5 @@ get "/contact" do
 end
 
 get "/car-api" do
-  erb :carapi
+ File.read(File.join('public', 'carapi.erb'))
 end
